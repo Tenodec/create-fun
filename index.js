@@ -48,14 +48,20 @@ const FRAMEWORKS = [
     {
         name: 'react',
         color: cyan,
-        variants: [{
-                name: 'react',
-                display: 'JavaScript',
-                color: yellow
-            },
+        variants: [
+            // {
+            //     name: 'react',
+            //     display: 'JavaScript',
+            //     color: yellow
+            // },
             {
                 name: 'react-ts',
                 display: 'TypeScript',
+                color: blue
+            },
+            {
+                name: 'react-ts-arco',
+                display: 'TypeScript Arco',
                 color: blue
             }
         ]
