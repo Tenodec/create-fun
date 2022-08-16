@@ -16,6 +16,14 @@
     "engines": {
         "node": ">=14.18.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tenodec/create-fun.git",
+        "directory": "packages/create-vite"
+    },
+    "bugs": {
+        "url": "https://github.com/Tenodec/create-fun/issues"
+    },
     "dependencies": {
         "kolorist": "^1.5.1",
         "minimist": "^1.2.6",
