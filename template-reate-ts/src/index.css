@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root,
+.App {
+    height: 100%
+}
+
+.pro-layout {}
+
+.pro-layout {
+    background: var(--color-fill-2);
+}
+
+.pro-layout .arco-layout-sider .logo {
+    height: 32px;
+    margin: 12px 8px;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+.pro-layout .arco-layout-sider-light .logo {
+    background: var(--color-fill-2);
+}
+
+.pro-layout .arco-layout-footer
+/* .pro-layout .arco-layout-content  */
+
+{
+    color: var(--color-white);
+    text-align: center;
+    font-stretch: condensed;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pro-layout .arco-layout-footer {
+    color: var(--color-text-2);
+    height: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pro-layout .arco-layout-content {
+    /* background: var(--color-bg-3); */
+    background: #f5f8fa;
+    color: var(--color-text-2);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pro-layout .arco-layout-header {
+    height: 64px;
+    line-height: 64px;
+    background: var(--color-bg-3);
+    box-shadow: 0px 10px 10px #eee;
+}
+
+.pro-layout .arco-layout-header .trigger {
+    margin-left: 20px;
+}
+.pro-layout  .arco-menu .arco-menu-item.arco-menu-selected{
+    font-weight: 400;
+}
+.pro-layout .arco-layout-sider .arco-layout-sider-trigger{
+    width:100% !important;
+}
+.pro-layout .arco-layout-sider-collapsed{
+    width:56px !important;
+}
+/* .pro-layout .arco-menu-vertical .arco-menu-inner{
+    padding: 0px 10px
+} */
